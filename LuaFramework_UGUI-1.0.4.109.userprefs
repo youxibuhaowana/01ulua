@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\LuaFramework\ToLua\Examples\04_AccessingLuaVariables\AccessingLuaVariables.cs">
+    <Files>
+      <File FileName="Assets\LuaFramework\ToLua\Examples\02_ScriptsFromFile\ScriptsFromFile.cs" Line="34" Column="17" />
+      <File FileName="Assets\LuaFramework\ToLua\Examples\03_CallLuaFunction\CallLuaFunction.cs" Line="27" Column="45" />
+      <File FileName="Assets\LuaFramework\ToLua\Examples\04_AccessingLuaVariables\AccessingLuaVariables.cs" Line="28" Column="31" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\02unityProject\27LuaFramework_UGUI-1.0.4.109\LuaFramework_UGUI-1.0.4.109\Assets\LuaFramework\ToLua\Core\LuaFileUtils.cs" line="179" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

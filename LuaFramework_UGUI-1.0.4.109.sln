@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{879220F2-7EF6-16AD-E5AA-A41F29E99D6C}") = "LuaFramework_UGUI-1.0.4.109", "Assembly-CSharp.csproj", "{0E714BB7-6F60-5456-F3DB-39393EC98EDB}"
+EndProject
+Project("{879220F2-7EF6-16AD-E5AA-A41F29E99D6C}") = "LuaFramework_UGUI-1.0.4.109", "Assembly-CSharp-Editor.csproj", "{73FFA8DA-1AD8-9419-93AD-4C07030F6813}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E714BB7-6F60-5456-F3DB-39393EC98EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E714BB7-6F60-5456-F3DB-39393EC98EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E714BB7-6F60-5456-F3DB-39393EC98EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E714BB7-6F60-5456-F3DB-39393EC98EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73FFA8DA-1AD8-9419-93AD-4C07030F6813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73FFA8DA-1AD8-9419-93AD-4C07030F6813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73FFA8DA-1AD8-9419-93AD-4C07030F6813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73FFA8DA-1AD8-9419-93AD-4C07030F6813}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

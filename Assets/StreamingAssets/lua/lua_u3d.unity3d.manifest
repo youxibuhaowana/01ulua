@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1694341883
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1b2e8a7945420e5cb43fd7a33ce5f91c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1033bf7ddfd4c6d43e7a6382c0a0a61a
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Lua/u3d/LayerMask.lua.bytes
+- Assets/Lua/u3d/Plane.lua.bytes
+Dependencies: []
