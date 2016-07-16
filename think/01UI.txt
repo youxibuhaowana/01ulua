@@ -1,0 +1,46 @@
+Q: classes and function
+
+UIManager ---> all ui manager (singleton)
+UIDialog  ---> dialog
+UIView	  ---> view 
+UIConfig  ---> dialog config info
+
+Q: as a manager, how do i manager others?
+(1) cache all members? how to cache?
+way1: use class object addr?  	   ---> tostring(clas.new())
+(2) know what my members can do?   ---> from config decide 
+(2) tell someone to do something?  ---> invoke uidialog function
+
+q: why our singleton need write so much code?
+UIManager public function use . , and fengzhuang once
+
+Q: UIDialog should use singleton?
+	if not ? how to find dialog? --> Use UImanager, provide fllowing functions:
+		-- the operation target is dialog
+		Open()/Close()
+		Add()/Remove()
+		Get("DialogName")
+		IsExsit() 
+		IsVisible()
+		IsLoaded()
+so uidialog doesn't use singleton
+
+Q: what function does UIDialog provide?
+Q: dialog can do what? you can do what?
+	open()/close()
+	hide()/show()
+
+
+Q: how they work together?
+UIManager
+UIDialog
+UISkin ---> find view obj
+UIConfig
+
+
+-- not done
+q: how normal function go to?
+UIComponent -- base class
+	UIButtonComponent
+	UISliderComponent
+	UI
