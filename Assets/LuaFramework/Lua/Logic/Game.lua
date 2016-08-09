@@ -11,6 +11,7 @@ local core = require "sproto.core"
 local print_r = require "3rd/sproto/print_r"
 
 -- 创建类
+require "Common/define"
 require "Common/Class"
 require "Common/Object"
 require "FrameWork/Singleton"

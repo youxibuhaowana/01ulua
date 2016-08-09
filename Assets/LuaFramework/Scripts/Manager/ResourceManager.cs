@@ -83,6 +83,7 @@ namespace LuaFramework {
         /// 载入素材
         /// </summary>
         void LoadAsset<T>(string abName, string[] assetNames, Action<UObject[]> action = null, LuaFunction func = null) where T : UObject {
+            //abName = "prompt.unity3d"
             abName = GetRealAssetPath(abName);
 
             LoadAssetRequest request = new LoadAssetRequest();
@@ -91,6 +92,7 @@ namespace LuaFramework {
             request.luaFunc = func;
             request.sharpFunc = action;
 
+            // 因为第一次走到if条件下的参数requests是out属性, 下次走到else也不用new了, 已经new过一次了
             List<LoadAssetRequest> requests = null;
             if (!m_LoadRequests.TryGetValue(abName, out requests)) {
                 requests = new List<LoadAssetRequest>();
@@ -149,6 +151,7 @@ namespace LuaFramework {
 
         IEnumerator OnLoadAssetBundle(string abName, Type type) {
             string url = m_BaseDownloadingURL + abName;
+            // url = file://C:/02unityProject/30origrinFM/LuaFramework_UGUI-1.0.4.109/Assets/StreamingAssets/prompt.unity3d
 
             WWW download = null;
             if (type == typeof(AssetBundleManifest))
@@ -370,3 +373,6 @@ namespace LuaFramework {
     }
 }
 #endif
+/*  未解决的问题
+(1) 对这套资源释放还不是很了解, ab内存, asset对象, Instantiate对象 这些都释放掉了吗？ 整个代码结构也不是很了解
+*/

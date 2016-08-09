@@ -63,6 +63,7 @@ function M:UpdateSceneLayer(pfb)
 	pfb.layer = self.layer;
 	-- tolua# 没有反射 使用它typeof
 	local components = pfb:GetComponentsInChildren(typeof(UnityEngine.Transform));
+	AddComponent(typeof(UnityEngine.Text));
 	local length = components.Length - 1;
 	for i = 0, length do
 		components[i].gameObject.layer = self.layer;
